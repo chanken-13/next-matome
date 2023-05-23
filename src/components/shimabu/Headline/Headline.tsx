@@ -11,7 +11,7 @@ type Props = {
   children: ReactElement;
 };
 
-export const Headline = (props: Props) => {
+export const Headline = (props: Props): JSX.Element => {
   return (
     <>
         <div className={styles.description}>

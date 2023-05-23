@@ -6,7 +6,7 @@ const NAV_ITEMS =[
  {href: "/shimabu/about", label: "About"},
 ];
 
-export const Header = () => {
+export const Header = (): JSX.Element => {
   return (
       <header className={styles.header}>
         {NAV_ITEMS.map((item) => {

@@ -5,7 +5,7 @@ import { useCounter } from '../hooks/useCounter';
 import { useInputArray } from '../hooks/useInputArray';
 import { useBgColor } from '../hooks/useBgColor';
 import { ThemeProvider } from 'styled-components'
-import { theme } from 'theme'
+import { theme } from '../../theme'
 
 const App = ({ Component, pageProps }: AppProps) => {
   const counter = useCounter();

@@ -4,7 +4,7 @@ import styles from 'src/components/shimabu/Logo/Logo.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const Logo = () => {
+export const Logo = (): JSX.Element => {
   return (
     <>
         <div className={styles.center}>

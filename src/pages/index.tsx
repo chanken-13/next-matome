@@ -30,7 +30,7 @@ const ITEMS = [
   },
 ]
 
-const Index = () => {
+const Index = (): JSX.Element => {
   return (
     <>
       <Head><title>Next.js</title></Head>

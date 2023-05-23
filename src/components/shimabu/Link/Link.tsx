@@ -3,9 +3,9 @@ import styles from 'src/components/shimabu/Link/Link.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const Link = (props:any) => {
+export const Link = (props:any): JSX.Element => {
   const {items, handleReduce} = props;
-  
+
   return (
     <>
         <div className={styles.grid}>
